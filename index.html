@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Saya | M. AnggaraAK Nur Akbar | Software Engineer | Web Developer | Frontend Engineer | Full-stack Engineer | Programmer | Jasa Buat Web | Rekrut Programmer | Hire Programmer | Hire | Rekrut | Portofolio | Mobile Engineer | Staff IT | Guru Komputer | Guru IT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style scoped>
+        #experience {
+          margin-top: 37rem;
+        }
+        
+
+        @media (max-width: 1281px) {
+          #experience {
+            margin-top: 300rem;
+          }
+        }
+
+
+        @media (max-width: 1430px) {
+          #experience {
+            margin-top: 0;
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><p>M. Anggara Nur Akbar</p></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">M. Anggara Nur Akbar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile"  class="profile">
+      <div class="section__pic-container">
+        <img style=" border-radius: 100%;" src="./assets/angga.jpeg" alt="M. Anggara Nur Akbar profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, saya</p>
+        <h1 style="margin-bottom: 1rem;" class="title">M. Anggara Nur Akbar</h1>
+        <p onplay="changeText()" id="changingText" class="section__text__p2">Software Engineer | Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/M.ANGGARANURAKBAR_CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='https://wa.me/6281574741772'">
+            Hubungi saya
+          </button>
+        </div>
+        <div id="socials-container">
+          <img style=" filter: brightness(0) invert(1);"
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/m-anggara-nur-akbar-74aa57287/'"
+          />
+          <img style=" filter: brightness(0) invert(1);"
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Anggaranur/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p style="margin-bottom: 1rem; @media only screen and (min-width: 600px) { margin-bottom: 0; }" class="section__text__p1">Get To Know More</p>
+      <h1 style="margin-bottom: 3rem; @media only screen and (min-width: 600px) { margin-bottom: 0; }" class="title">About Me</h1>      
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img style="width:27rem; border-color: white;"
+            src="./assets/program.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p style="color: black;">2023 - 2024 | Frontend Engineer<br / > 2023 - 2024 | Software Tester <br/>2024 Proyek pribadi | Full-stack Engineer<br /> 2024  Proyek pribadi | Mobile Engineer </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p style="color: black;">SMK Software Engineer | Full-stack <br />Dicoding Indonesia Software Engineer <br /> Great Learning Web Developer | Frontend <br /> Otodidak Mobile Engineer</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Bismillahirrahmanirrahim, Assalamualaikum. Nama saya M. Anggara Nur Akbar. Saya adalah seorang programmer yang lulus dari SMK Bhakti Mulia Pare dengan jurusan Software Engineer. Sejak belajar di sekolah, saya telah memperdalam pemahaman saya tentang berbagai bahasa pemrograman dan framework yang relevan.<br/>
+            
+                Pengalaman magang saya di Language Center (LC), sebuah sekolah kursus bahasa Inggris di Pare, dari tahun 2023 hingga 2024, telah memberi saya wawasan berharga sebagai seorang programmer. Di sana, saya bekerja keras dan berkolaborasi dengan tim untuk mengembangkan solusi perangkat lunak yang inovatif. 
+            
+                Saya sangat bersemangat untuk terus belajar dan tumbuh dalam dunia teknologi. Tujuan saya adalah terus meningkatkan keterampilan saya dalam pemrograman dan kontribusi dalam menciptakan solusi-solusi yang bermanfaat bagi masyarakat. Terima kasih atas kesempatannya untuk berbagi sedikit tentang diri saya.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img style=" filter: brightness(0) invert(1);"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+
+      <!-- Pribadi diri -->
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 style="color: black;" class="experience-sub-title">Pribadi Dalam Beragama</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Agama islam</h3>
+                  <p style="color: black;">Beragama Islam</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Manhaj Salaf</h3>
+                  <p style="color: black;">Manhaj Salaf</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Hafalan kitab</h3>
+                  <p style="color: black;">Al-Quran Juz 30</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Penganut</h3>
+                  <p style="color: black;">Ahlu al-Sunnah</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Kewajiban</h3>
+                  <p style="color: black;">Menjalankan Syariat Islam</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tidak suka</h3>
+                  <p style="color: black;">Tidak Menyukai Sesuatu Yang Haram</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 style="color: black;" class="experience-sub-title">Pribadi Secara Karakter</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="width: 10rem;">Problem Solver</h3>
+                  <p style="color: black;">Pemecah Masalah</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="width: 10rem;">Pemikir Analis</h3>
+                  <p style="color: black;">Analis dan sistematis</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="width: 10rem;">Pribadi Logis</h3>
+                  <p style="color: black;">
+                   Logis dan perfeksionis</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 >Terampil</h3>
+                  <p style="color: black;">Bisa diandalkan</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="width: 10rem;">Tanggung Jawab</h3>
+                  <p style="color: black;">Bertanggung jawab dan dapat dipercaya</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Toleran</h3>
+                  <p style="color: black;">Toleransi atas segala perbedaan</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 style="color: black;" class="experience-sub-title">Programming Language</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p style="color: black;">Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p style="color: black;">Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p style="color: black;">Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Dart</h3>
+                  <p style="color: black;">Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p style="color: black;">Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p style="color: black;">Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 style="color: black;" class="experience-sub-title">Framework & Library</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django</h3>
+                  <p style="color: black;">Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vue JS</h3>
+                  <p style="color: black;">Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind</h3>
+                  <p style="color: black;">
+                    Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flutter</h3>
+                  <p style="color: black;">Proses Belajar</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p style="color: black;">Proses Belajar</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Laravel</h3>
+                  <p style="color: black;">Proses Belajar</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img style=" filter: brightness(0) invert(1);"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img style="height: 18.5rem;"
+                src="./assets/kimo.png"
+                alt="Kimo For Student"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Kimo For Student</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Anggaranur/Kimo-LP'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://kimo-app.kampunginggrislc.com/'"
+              >
+              Live Mobile Only Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Ongoing</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Ongoing</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img style=" filter: brightness(0) invert(1);"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <nav style="margin-top: 3rem;">
+        <div style="position: relative;" class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <p style="position: relative; margin-top: 3rem; @media only screen and (min-width: 600px) { margin-top: 0; }" class="section__text__p1">Get in Touch</p>
+
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img style=" filter: brightness(0) invert(1);"
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:m.anggaranurakbar@gmail.com">m.anggaranurakbar@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img style=" filter: brightness(0) invert(1);"
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/m-anggara-nur-akbar-74aa57287/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer style="margin-bottom: 0; padding-bottom: 0; margin-top: 1rem;">
+      <svg viewBox="0 0 120 28">
+        <defs> 
+          <mask id="xxx">
+            <circle cx="7" cy="12" r="40" fill="#fff" />
+          </mask>
+          
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="
+              1 0 0 0 0  
+              0 1 0 0 0  
+              0 0 1 0 0  
+              0 0 0 13 -9" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+          <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+        </defs> 
+        
+        <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+        <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+      
+        <a href="#profile" label="Kembali ke atas"><g class="topball">
+          <circle class="ball" cx="110" cy="8" r="4" stroke="none" stroke-width="0" fill="red" />
+        
+          <g class="arrow">
+            <polyline class="" points="108,8 110,6 112,8" fill="none"  />
+            <polyline class="" points="110,6 110,10.5" fill="none"  />
+          </g>
+          
+        </g></a>
+        <g class="gooeff">
+          <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
+          <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
+          <circle class="drop drop3" cx="16" cy="2.8" r="1.2"  />
+          <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+        
+          <!-- g mask="url(#xxx)">
+          <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+          </g -->
+        </g>
+      
+      </svg>
+      
+      <div><p style="color: black; padding-bottom: 1rem;">Copyright &#169; 2024 M. Anggara Nur Akbar. All Rights Reserved</p></div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+      var textArray = [
+        "Software Engineer | Web Developer",
+        "Full-stack Enginner",
+        "Mobile Enginner"
+      ];
+      var index = 0;
+    
+      function changeText() {
+        document.getElementById("changingText").innerHTML = textArray[index];
+        index = (index + 1) % textArray.length;
+      }
+    
+      setInterval(changeText, 3000); // Mengubah teks setiap 3 detik
+    </script>
+  </body>
+</html>
+
